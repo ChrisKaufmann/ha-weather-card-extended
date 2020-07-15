@@ -37,7 +37,88 @@ And make sure the **sun** component has been enabled in your configuration.yaml
 #configuration.yaml entry
 sun:
 ```
-
+## Optional values
+label
+  (boolean)(Optional)
+  Set to false to disable the "Partly Cloudy" (for example) label
+  Default value:
+    true
+```yaml
+label: false
+```
+variations
+  (boolean)(Optional)
+  Set to false to disable the entire variations area
+  Merely setting all of the variations to false individually won't remove the styling
+  Default value:
+    true
+```yaml
+variations: false
+```
+forecast
+  (integer)(Optional)
+  Set a number of days of forecast to display, 0 to disable entirely
+  Default value:
+    5
+```
+forecast: 3
+```
+wind
+  (boolean)(Optional)
+  Set to false to disable the wind speed display - disables both main and forecast
+  Default value:
+    true
+```
+wind: false
+```
+summary
+  (boolean)(Optional)
+  Set to false to disable the summary
+  Default value:
+    true
+```
+summary: false
+```
+humidity
+  (boolean)(Optional)
+  Set to false to disable humidity in the forecast
+  Default value:
+    true
+```
+humidity: false
+```
+sunrise
+  (boolean)(Optional)
+  Set to false to disable sunrise in the forecast
+  Default value: 
+    true
+```
+sunrise: false
+```
+sunset
+  (boolean)(Optional)
+  Set to false to disable sunset in the forecast
+  Default value:
+    true
+```
+sunset: false
+```
+barometer
+  (boolean)(Optional)
+  Set to false to disable the barometer in the forecast
+  Default value:
+    true
+```
+barometer: false
+```
+visibility
+  (boolean)(Optional)
+  Set to false to disable visibility in the forecast
+  Default value:
+    true
+```
+visibility: false
+```
 ## Optional - Add to Custom Updater
 This Card support the Custom Updater, so if you have this enabled on your system, add the following line to `configuration.yaml`:
 ```yaml
