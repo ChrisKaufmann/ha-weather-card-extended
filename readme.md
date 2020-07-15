@@ -23,6 +23,17 @@ And add a card with type `custom:weather-card-extended`:
   entity: weather.YourWeatherEntity
   mode: daily or hourly (daily is default - Optional)
   name: Name of your Weather Entity - Optional
+  #optional values follow
+  label: false (default is true)
+  variations: false (default is true)
+  forecast: 0 (default is 5)
+  wind: false (default is true)
+  summary: false (default is true)
+  humidity: false (default is true)
+  sunrise: false (default is true)
+  sunset: false (default is true)
+  barometer: false (default is true)
+  visibility: false (default is true)
 ```
 As this is a fork of [bramkragten's](https://github.com/bramkragten) Weather Card, there is still a link in here to the hosted icons. But if you want to use your local hosted icons, then add the following: (Where icons points to a directory where the amChart Icons have been stored)
 ```yaml
@@ -47,9 +58,6 @@ label
   Default value:
 
   true
-```yaml
-label: false
-```
 variations
 
   (boolean)(Optional)
@@ -61,9 +69,6 @@ variations
   Default value:
   
   true
-```yaml
-variations: false
-```
 forecast
 
   (integer)(Optional)
@@ -73,9 +78,6 @@ forecast
   Default value:
   
   5
-```
-forecast: 3
-```
 wind
   
   (boolean)(Optional)
@@ -85,9 +87,6 @@ wind
   Default value:
   
   true
-```
-wind: false
-```
 summary
   
   (boolean)(Optional)
@@ -97,9 +96,6 @@ summary
   Default value:
   
   true
-```
-summary: false
-```
 humidity
   
   (boolean)(Optional)
@@ -109,9 +105,6 @@ humidity
   Default value:
   
   true
-```
-humidity: false
-```
 sunrise
   
   (boolean)(Optional)
@@ -121,9 +114,6 @@ sunrise
   Default value: 
   
   true
-```
-sunrise: false
-```
 sunset
   
   (boolean)(Optional)
@@ -133,9 +123,6 @@ sunset
   Default value:
   
   true
-```
-sunset: false
-```
 barometer
   
   (boolean)(Optional)
@@ -145,9 +132,6 @@ barometer
   Default value:
   
   true
-```
-barometer: false
-```
 visibility
   
   (boolean)(Optional)
@@ -157,9 +141,6 @@ visibility
   Default value:
   
   true
-```
-visibility: false
-```
 ## Optional - Add to Custom Updater
 This Card support the Custom Updater, so if you have this enabled on your system, add the following line to `configuration.yaml`:
 ```yaml
