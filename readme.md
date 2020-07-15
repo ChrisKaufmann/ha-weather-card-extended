@@ -54,9 +54,8 @@ label
 
   Set to false to disable the "Partly Cloudy" (for example) label
 
-  Default value:
+  Default value: true
 
-  true
 variations
 
   (boolean)(Optional)
@@ -65,81 +64,72 @@ variations
   
   Merely setting all of the variations to false individually won't remove the styling
   
-  Default value:
-  
-  true
+  Default value: true
+
 forecast
 
   (integer)(Optional)
   
   Set a number of days of forecast to display, 0 to disable entirely
   
-  Default value:
-  
-  5
+  Default value:  5
+
 wind
   
   (boolean)(Optional)
   
   Set to false to disable the wind speed display - disables both main and forecast
   
-  Default value:
-  
-  true
+  Default value:  true
+
 summary
   
   (boolean)(Optional)
   
   Set to false to disable the summary
   
-  Default value:
-  
-  true
+  Default value:  true
+
 humidity
   
   (boolean)(Optional)
   
   Set to false to disable humidity in the forecast
   
-  Default value:
-  
-  true
+  Default value:  true
+
 sunrise
   
   (boolean)(Optional)
   
   Set to false to disable sunrise in the forecast
   
-  Default value: 
-  
-  true
+  Default value: true
+
 sunset
   
   (boolean)(Optional)
   
   Set to false to disable sunset in the forecast
   
-  Default value:
-  
-  true
+  Default value:  true
+
 barometer
   
   (boolean)(Optional)
   
   Set to false to disable the barometer in the forecast
   
-  Default value:
-  
-  true
+  Default value: true
+
 visibility
   
   (boolean)(Optional)
   
   Set to false to disable visibility in the forecast
   
-  Default value:
-  
-  true
+  Default value:  true
+
 ## Optional - Add to Custom Updater
 This Card support the Custom Updater, so if you have this enabled on your system, add the following line to `configuration.yaml`:
 ```yaml
