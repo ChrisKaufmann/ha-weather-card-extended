@@ -46,7 +46,7 @@ label
 
   Default value:
 
-    true
+  true
 ```yaml
 label: false
 ```
@@ -60,71 +60,103 @@ variations
   
   Default value:
   
-    true
+  true
 ```yaml
 variations: false
 ```
 forecast
+
   (integer)(Optional)
+  
   Set a number of days of forecast to display, 0 to disable entirely
+  
   Default value:
-    5
+  
+  5
 ```
 forecast: 3
 ```
 wind
+  
   (boolean)(Optional)
+  
   Set to false to disable the wind speed display - disables both main and forecast
+  
   Default value:
-    true
+  
+  true
 ```
 wind: false
 ```
 summary
+  
   (boolean)(Optional)
+  
   Set to false to disable the summary
+  
   Default value:
-    true
+  
+  true
 ```
 summary: false
 ```
 humidity
+  
   (boolean)(Optional)
+  
   Set to false to disable humidity in the forecast
+  
   Default value:
-    true
+  
+  true
 ```
 humidity: false
 ```
 sunrise
+  
   (boolean)(Optional)
+  
   Set to false to disable sunrise in the forecast
+  
   Default value: 
-    true
+  
+  true
 ```
 sunrise: false
 ```
 sunset
+  
   (boolean)(Optional)
+  
   Set to false to disable sunset in the forecast
+  
   Default value:
-    true
+  
+  true
 ```
 sunset: false
 ```
 barometer
+  
   (boolean)(Optional)
+  
   Set to false to disable the barometer in the forecast
+  
   Default value:
-    true
+  
+  true
 ```
 barometer: false
 ```
 visibility
+  
   (boolean)(Optional)
+  
   Set to false to disable visibility in the forecast
+  
   Default value:
-    true
+  
+  true
 ```
 visibility: false
 ```
