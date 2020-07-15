@@ -39,18 +39,27 @@ sun:
 ```
 ## Optional values
 label
+
   (boolean)(Optional)
+
   Set to false to disable the "Partly Cloudy" (for example) label
+
   Default value:
+
     true
 ```yaml
 label: false
 ```
 variations
+
   (boolean)(Optional)
+
   Set to false to disable the entire variations area
+  
   Merely setting all of the variations to false individually won't remove the styling
+  
   Default value:
+  
     true
 ```yaml
 variations: false
