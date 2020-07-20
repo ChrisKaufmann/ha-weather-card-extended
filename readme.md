@@ -48,7 +48,7 @@ And make sure the **sun** component has been enabled in your configuration.yaml
 sun:
 ```
 ## Optional values
-{% configuration %}
+
 label
 
   (boolean)(Optional)
@@ -130,7 +130,7 @@ visibility
   Set to false to disable visibility in the forecast
   
   Default value:  true
-{% endconfiguration %}
+
 ## Optional - Add to Custom Updater
 This Card support the Custom Updater, so if you have this enabled on your system, add the following line to `configuration.yaml`:
 ```yaml
